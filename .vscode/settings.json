@@ -1,0 +1,15 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always", // ativa a correção automática com ESLint ao salvar
+        "source.organizeImports": "always" // organiza automaticamente as importações ao salvar
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "typescript.suggest.autoImports": true, // ativa as sugestões de auto importação no TypeScript
+    "typescript.updateImportsOnFileMove.enabled": "always", // atualiza automaticamente as importações ao mover arquivos TypeScript
+    "editor.formatOnSave": true // garante que o Prettier formatará o código ao salvar
+}

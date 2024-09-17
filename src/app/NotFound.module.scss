@@ -1,0 +1,50 @@
+// NotFound.module.scss
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem; // mt-12
+  gap: 2rem; // gap-8
+  padding: 0 1.5rem; // px-6
+  
+  @media (min-width: 768px) {
+    margin-top: 6rem; // md:mt-24
+    padding: 0 8rem; // md:px-32
+  }
+}
+
+.title {
+  font-size: 3rem; // text-5xl
+  font-weight: bold; // font-bold
+
+  @media (min-width: 640px) {
+    font-size: 4.5rem; // sm:text-7xl
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; // gap-8
+
+  @media (min-width: 768px) {
+    gap: 1rem; // md:gap-4
+    font-size: 1.25rem; // md:text-xl
+  }
+}
+
+.button {
+  padding: 1rem; // p-4
+  background-color: #b6b4b4; // bg-hblue500 (substitua pela cor real desejada)
+  border-radius: 0.75rem; // rounded-xl
+  color: black; // text-black
+  margin-top: 1.25rem; // mt-5
+  width: fit-content; // w-fit
+
+  @media (min-width: 768px) {
+    margin-top: 0.25rem; // md:mt-1
+    font-size: 1.25rem; // md:text-xl
+  }
+}
