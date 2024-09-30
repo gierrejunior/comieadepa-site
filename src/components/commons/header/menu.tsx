@@ -98,7 +98,7 @@ export default function Menu() {
           <Link href="/" onClick={closeMenu}>
             Home
           </Link>
-          <Link href="https://comieadepa.org:2083/" onClick={closeMenu}>
+          <Link href="https://comieadepa.org/webmail/" onClick={closeMenu}>
             WebMail
           </Link>
           <Link href="/contato" onClick={closeMenu}>
