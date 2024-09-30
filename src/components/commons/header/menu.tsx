@@ -80,7 +80,7 @@ export default function Menu() {
       <div className={styles.navWrapper}>
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
-          <Link href="https://comieadepa.org:2083/">WebMail</Link>
+          <Link href="https://comieadepa.org/webmail/">WebMail</Link>
           <Link href="/contato">Contato</Link>
           <Link href="/institucional">Institucional</Link>
           <Link href="/diretoria">Diretoria</Link>
